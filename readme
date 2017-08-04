@@ -1,0 +1,17 @@
+GUI
+    Frame
+        创建窗体对象
+        Frame f=new Frame();//构造一个最初不可见的Frame新实例
+        show(),显示窗体，但已经过时
+        f.setVisible(true),
+        setSize(kuan，gao)设置宽高，单位是像素
+        setLocation(x,y)设置窗体位置
+        setTitle() 设置窗体标题
+            也可以通过构造也可以
+                Frame f=new Frame("haha")
+        setBounds(x,y,w,h) 直接一个方法设置窗体的xy轴和宽高
+        方法调用的前后关系
+            先设置f的各种属性，最后设置可见
+
+
+
